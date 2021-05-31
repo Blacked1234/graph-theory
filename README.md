@@ -8,14 +8,12 @@ Dictionary
     "D": {"B": 2}
     
 ## How to use
-Ufortunately, I hadn't implemented user input into the algorithm.
-Only way to load own graph is to edit main.py file. Inputing 
-vertices by letters, not numbers.
-Add line:
+Type file name, for example:
 
-    load_file('filename.json')
-    dijkstra(loaded_graph, start_node, end_node)
-
+    graph2.json
+    
+Then input node's, for example: A and E
+AOutput will be optimal path length.
 ## Technologies
 * Python 3.8
 * PyCharm IDE
