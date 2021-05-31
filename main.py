@@ -44,9 +44,10 @@ def dijkstra(graph, start, end):
         print("No connection!")
 
 
-load_file('example.json')
-dijkstra(loaded_graph, 'A', 'C')
+filename = input('Please enter name of the file (for example: graph.json): ')
+while True:
 
-load_file('example2.json')
-dijkstra(loaded_graph, 'A', 'L')
-
+    start_node = input("Enter start node: ")
+    end_node = input("Enter end node: ")
+    load_file(filename)
+    dijkstra(loaded_graph, start_node, end_node)
