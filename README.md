@@ -13,7 +13,7 @@ Type file name, for example:
     graph2.json
     
 Then input node's, for example: A and E
-AOutput will be optimal path length.
+Output will be optimal path length.
 ## Technologies
 * Python 3.8
 * PyCharm IDE
